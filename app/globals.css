@@ -5,8 +5,9 @@
   --foreground: #171717;
 }
 
-@theme inline {
+@theme{
   --font-inter:var(--font-inter);
+  --color-secondary:#3dc08d;
 }
 
 /* @media (prefers-color-scheme: dark) {

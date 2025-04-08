@@ -16,16 +16,15 @@ const sidebar = () => {
                 </div>
             </div>
         </div>
-        <div className="py-6 flex flex-col">
+        <div className="py-8 flex flex-col">
           <span className="font-inter text-xs text-gray-400 font-medium px-1">Main Menu</span>
-          <div className="py-2 flex flex-col *:text-gray-500 *:px-3 *:border gap-y-1 *:border-transparent *:py-3 *:flex *:rounded-lg  *:font-medium text-sm *:items-center *:font-inter *:gap-x-4 *:hover:bg-white *:hover:border-gray-200 *:hover:shadow-sm *:transition-all *:duration-200 *:hover:text-gray-800">
-          <Link href="/">
+          <div className="py-2 flex flex-col *:text-gray-500 *:px-3  gap-y-1 *:py-3 *:flex *:rounded-md  *:font-medium text-sm *:items-center *:font-inter *:gap-x-4 *:hover:text-white *:hover:bg-linear-to-r *:hover:from-gray-900 *:hover:to-zinc-600 *:hover:to-75%">
+          <Link href="/dashboard">
               <HugeiconsIcon
                 icon={DashboardSquare02Icon}
                 size={22}
                 color="currentColor"
-                strokeWidth={1.5}
-                className="text-gray-800"
+                strokeWidth={2}
               />
               <span>Dashboard</span>
             </Link>
@@ -34,8 +33,7 @@ const sidebar = () => {
                 icon={Invoice01Icon}
                 size={22}
                 color="currentColor"
-                strokeWidth={1.5}
-                className="text-gray-800"
+                strokeWidth={2}
               />
               <span>Invoices</span>
             </Link>
