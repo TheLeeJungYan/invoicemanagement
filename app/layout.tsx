@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} bg-white min-h-screen flex`}>
+    <html lang="en" className="h-full">
+      <body className={`${inter.variable} bg-white min-h-screen h-full flex`}>
         <Sidebar/>
         <div className="flex-1 px-5 py-2.5">{children}</div>
       </body>

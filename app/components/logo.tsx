@@ -20,7 +20,7 @@ import React from 'react'
             </div>
            
         </div>
-        <span className="font-inter font-[600] text-2xl relative top-[2px] text-gray-800"><span className="text-secondary">Invoi</span>zo</span>
+        <span className="font-inter font-[600] text-2xl relative top-[2px] text-gray-800"><span className="text-secondary">Invo</span>izo</span>
     </div>
   )
 }
