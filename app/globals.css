@@ -9,7 +9,11 @@
   --font-inter:var(--font-inter);
   --color-secondary:#3dc08d;
 }
-
+.shadow-special {
+  box-shadow: oklch(21% 0.034 264.665) 0 6px 64px 0;
+  position: absolute;
+  top: -4px;
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
