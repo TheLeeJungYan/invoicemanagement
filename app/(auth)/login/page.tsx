@@ -3,8 +3,9 @@ import LogoIcon from "@/components/logoIcon";
 const page = () => {
   return (
     <div className="shadow-xs flex flex-col gap-6   rounded-xl w-[350px] overflow-hidden py-6 border border-gray-200 font-inter text-gray-800 relative">
-      <div className="absolute top-[-200px] left-0 w-[250px] h-[250px] z-[10] rounded-full bg-radial-[at_50%_50%] from-green-200 to-60% to-green-50"></div>
-      <div className="px-6 z-[20]">
+       <div className="absolute w-[350px] h-[350px] top-[-250px] left-0 bg-[radial-gradient(circle_300px_at_50%_50px,#b9f8cf,transparent)]">
+       </div>
+      <div className="px-6 z-[20] flex justify-start">
         <LogoIcon additionalClass="z-[20] shadow-lg shadow-white" />
       </div>
       <div id="card-header" className="flex flex-col gap-1.5 px-6 z-[20]">
@@ -13,7 +14,7 @@ const page = () => {
           Enter your credentials to access your account
         </span>
       </div>
-      <div id="card-content" className="px-6">
+      <div id="card-content" className="px-6 ">
         <form action="#" className="flex flex-col gap-4">
           <div className="flex flex-col">
             <label
