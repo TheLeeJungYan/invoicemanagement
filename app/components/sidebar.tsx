@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Sidebar = () => {
   const pathname = usePathname();
   return (
-    <div className="w-[300px] bg-gray-50 border-r border-gray-200 py-5 px-6 h-full flex flex-col">
+    <div className="w-[300px]  py-5 px-6 h-full flex flex-col">
         <Logo/>
         <div className="mt-5">
             <div className="items-center rounded-xl bg-white px-3 py-2 border border-gray-200 flex gap-3">
@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className="py-8 flex flex-col">
           <span className="font-inter text-xs text-gray-400 font-medium px-1">Main Menu</span>
           <div className="py-2 flex flex-col  *:px-3  gap-y-2 *:py-3 *:flex *:rounded-md  *:font-medium text-sm *:items-center *:font-inter *:gap-x-4 ">
-          <Link href="/dashboard" className={`${pathname === '/dashboard' ? 'text-white bg-linear-to-br  from-secondary/20 to-secondary to-30%' : 'text-gray-500 hover:text-white hover:bg-linear-to-br  hover:from-secondary/20 hover:to-secondary hover:to-30%'}`}>
+          <Link href="/dashboard" className={`${pathname === '/dashboard' ? 'text-white bg-secondary' : 'text-gray-500 hover:text-white hover:bg-secondary'}`}>
               <HugeiconsIcon
                 icon={DashboardSquare02Icon}
                 size={22}
@@ -32,7 +32,7 @@ const Sidebar = () => {
               />
               <span>Dashboard</span>
             </Link>
-            <Link href="/invoice" className={`${pathname === '/invoice' ? 'text-white bg-linear-to-br  from-secondary/20 to-secondary to-30%' : 'text-gray-500 hover:text-white hover:bg-linear-to-br  hover:from-secondary/20 hover:to-secondary hover:to-30%'}`}>
+            <Link href="/invoice" className={`${pathname === '/invoice' ? 'text-white bg-secondary' : 'text-gray-500 hover:text-white hover:bg-secondary'}`}>
               <HugeiconsIcon
                 icon={Invoice01Icon}
                 size={22}
