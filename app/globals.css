@@ -7,6 +7,7 @@
 
 @theme{
   --font-inter:var(--font-inter);
+  --font-montserrat:var(--font-montserrat);
   --color-secondary:#3dc08d;
 }
 .shadow-special {
