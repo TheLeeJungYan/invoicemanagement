@@ -42,12 +42,13 @@ export default function Page() {
         <div className="flex-1 flex flex-col">
           <label className="font-semibold text-zinc-600">Revenue</label>
           <div className="mt-2 flex gap-4 items-center">
-            <p className="text-4xl font-bold font-inter bg-clip-text text-transparent bg-gradient-to-r from-secondary to-zinc-900">RM 2592892.72</p>
+            {/* <p className="text-4xl font-bold font-inter bg-clip-text text-transparent bg-gradient-to-r from-secondary  via-[#00b5ff] to-[#0081c9]">RM 2592892.72</p> */}
+            <p className="text-4xl font-bold font-inter text-zinc-700">RM 25913132<span className="text-zinc-50" style={{ WebkitTextStroke:'1px black'}}>.28</span></p>
             <div className="flex gap-2">
-              <div className="rounded-full  bg-emerald-300/20 border border-emerald-700/10 text-emerald-700  px-[5px] py-[3px] flex items-center text-xs gap-1 font-semibold">
+              <div className="rounded-full  bg-green-100/70 border border-green-600/10 text-green-600 px-[5px] py-[3px] flex items-center text-xs gap-[3px]">
                  <HugeiconsIcon
                       icon={ArrowUpDoubleIcon}
-                      size={16}
+                      size={14}
                       color="currentColor"
                       strokeWidth={2}
                     />
@@ -58,7 +59,7 @@ export default function Page() {
           <p className="text-xs text-emerald-950/50 ">vs prev. RM 2302312.52&ensp;&nbsp;Apr 1 - Apr 30 2025</p>
         </div>
         <div className="flex-2 flex gap-2">
-          <DashboardCard/>
+          <DashboardCard title="New Customer" value={20}/>
           <DashboardCard/>
           <DashboardCard/>
         </div>

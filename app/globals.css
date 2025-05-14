@@ -8,6 +8,7 @@
 @theme{
   --font-inter:var(--font-inter);
   --font-montserrat:var(--font-montserrat);
+  --font-poppins:var(--font-poppins);
   --color-secondary:#3dc08d;
 }
 .shadow-special {

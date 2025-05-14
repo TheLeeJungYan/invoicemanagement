@@ -1,12 +1,12 @@
 import React from "react";
-import LogoIcon from "@/components/logoIcon";
+import Icon from "@/components/Logo/icon";
 const page = () => {
   return (
     <div className="shadow-xs flex flex-col gap-6   rounded-xl w-[350px] overflow-hidden py-6 border border-gray-200 font-inter text-gray-800 relative">
        <div className="absolute w-[350px] h-[350px] top-[-250px] left-0 bg-[radial-gradient(circle_300px_at_50%_50px,#b9f8cf,transparent)]">
        </div>
       <div className="px-6 z-[20] flex justify-start">
-        <LogoIcon additionalClass="z-[20] shadow-lg shadow-white" />
+        <Icon additionalClass="z-[20] shadow-lg shadow-white" />
       </div>
       <div id="card-header" className="flex flex-col gap-1.5 px-6 z-[20]">
         <span className="leading-none font-semibold">Login</span>

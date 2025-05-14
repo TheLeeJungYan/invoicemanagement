@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import Logo from '@/components/logo';
+import Logo from '@/components/Logo/index';
 import { usePathname } from 'next/navigation';
 import { HugeiconsIcon } from '@hugeicons/react';
 import { Invoice01Icon,DashboardSquare02Icon } from '@hugeicons/core-free-icons';
@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className="py-8 flex flex-col">
           <span className="font-inter text-xs text-gray-400 font-medium px-1">Main Menu</span>
           <div className="py-2 flex flex-col  *:px-3  gap-y-2 *:py-3 *:flex *:rounded-md  *:font-medium text-sm *:items-center *:font-inter *:gap-x-4 ">
-          <Link href="/dashboard" className={`${pathname === '/dashboard' ? 'text-white bg-secondary' : 'text-gray-500 hover:text-white hover:bg-secondary'}`}>
+          <Link href="/dashboard" className={`${pathname === '/dashboard' ? 'text-white bg-secondary shadow-xl shadow-secondary/20' : 'text-gray-500 hover:text-white hover:bg-secondary'}`}>
               <HugeiconsIcon
                 icon={DashboardSquare02Icon}
                 size={22}
