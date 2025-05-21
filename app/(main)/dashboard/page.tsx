@@ -125,8 +125,8 @@ export default function Page() {
               />
             }
             className="border-zinc-200"
-            iconClassName="border bg-emerald-50 text-emerald-600 border-emerald-900/10"
-            titleClassName="text-zinc-400"
+            iconClassName="bg-emerald-300/15 text-emerald-700 "
+            titleClassName="text-zinc-300"
             valueClassName="text-emerald-950"
           />
           <DashboardCard
@@ -141,6 +141,8 @@ export default function Page() {
               />
             }
             className="border-zinc-200"
+            iconClassName="bg-red-200/15 text-red-700 ring-2 ring-red-200/30"
+            titleClassName="text-zinc-300"
           />
         </div>
       </div>
