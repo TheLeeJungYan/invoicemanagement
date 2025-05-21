@@ -65,7 +65,7 @@ export default function Page() {
       <span className="text-zinc-300 text-sm  mt-2" suppressHydrationWarning>
         {formatDate(time)}
       </span>
-      <div className="mt-6 flex gap-2">
+      <div className="mt-6 flex gap-2 items-center">
         <div className="flex-1 flex flex-col">
           <label className="font-semibold text-zinc-600">Revenue</label>
           <div className="mt-2 flex gap-4 items-center">
@@ -124,8 +124,8 @@ export default function Page() {
                 strokeWidth={2}
               />
             }
-            className="border-zinc-200"
-            iconClassName="bg-emerald-300/15 text-emerald-700 "
+            className="border border-emerald-950/10"
+            iconClassName="text-emerald-700 bg-emerald-700/5 border border-emerald-700/10"
             titleClassName="text-zinc-300"
             valueClassName="text-emerald-950"
           />
@@ -140,9 +140,10 @@ export default function Page() {
                 strokeWidth={1.5}
               />
             }
-            className="border-zinc-200"
-            iconClassName="bg-red-200/15 text-red-700 ring-2 ring-red-200/30"
+            className="border border-gray-200"
+            iconClassName="bg-rose-700/5 text-rose-700 border border-rose-700/10"
             titleClassName="text-zinc-300"
+            valueClassName="text-rose-950"
           />
         </div>
       </div>

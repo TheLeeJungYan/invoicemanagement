@@ -11,7 +11,7 @@ const DashboardCard: React.FC<DashboardCardProps> = ({
 }) => {
   return (
     <div
-      className={`flex-1 py-3 px-6 border rounded-xl flex flex-col relative ${className}`}
+      className={`flex-1 py-4 px-6  rounded-xl flex flex-col relative ${className}`}
     >
       <div
         className={`flex items-center w-8 h-8 justify-center rounded-lg ${iconClassName}`}
